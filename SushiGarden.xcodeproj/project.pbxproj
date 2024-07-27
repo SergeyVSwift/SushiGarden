@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		C5F0B0C72C53EA01004CD80F /* SushiGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0C62C53EA01004CD80F /* SushiGardenApp.swift */; };
-		C5F0B0C92C53EA01004CD80F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0C82C53EA01004CD80F /* ContentView.swift */; };
+		C5F0B0C92C53EA01004CD80F /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0C82C53EA01004CD80F /* AuthView.swift */; };
 		C5F0B0CB2C53EA04004CD80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0B0CA2C53EA04004CD80F /* Assets.xcassets */; };
 		C5F0B0CE2C53EA04004CD80F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0B0CD2C53EA04004CD80F /* Preview Assets.xcassets */; };
+		C5F0B0D82C53F7AA004CD80F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0D72C53F7AA004CD80F /* Color.swift */; };
+		C5F0B0DE2C54D7B4004CD80F /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0DA2C54D7B4004CD80F /* AnimatedGradient.swift */; };
+		C5F0B0DF2C54D7B4004CD80F /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0DC2C54D7B4004CD80F /* TextFieldStyle.swift */; };
+		C5F0B0E02C54D7B4004CD80F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0DD2C54D7B4004CD80F /* CustomTextField.swift */; };
+		C5F0B0E32C54D7E5004CD80F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0E22C54D7E5004CD80F /* Regex.swift */; };
+		C5F0B0E52C54D7EF004CD80F /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0E42C54D7EF004CD80F /* AuthViewModel.swift */; };
+		C5F0B0E72C54D83B004CD80F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0E62C54D83B004CD80F /* String.swift */; };
+		C5F0B0EB2C54E190004CD80F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0EA2C54E190004CD80F /* TabBarView.swift */; };
+		C5F0B0ED2C54E4A8004CD80F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0EC2C54E4A8004CD80F /* ProfileView.swift */; };
+		C5F0B0EF2C54E4B1004CD80F /* CatalogeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0EE2C54E4B1004CD80F /* CatalogeView.swift */; };
+		C5F0B0F12C54E4BE004CD80F /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0F02C54E4BE004CD80F /* OrdersView.swift */; };
+		C5F0B0F42C54F59C004CD80F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0F32C54F59C004CD80F /* ProductCell.swift */; };
+		C5F0B0F62C54F5F7004CD80F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0F52C54F5F7004CD80F /* Product.swift */; };
+		C5F0B0F82C550359004CD80F /* CataloveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0B0F72C550359004CD80F /* CataloveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5F0B0C32C53EA01004CD80F /* SushiGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F0B0C62C53EA01004CD80F /* SushiGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGardenApp.swift; sourceTree = "<group>"; };
-		C5F0B0C82C53EA01004CD80F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5F0B0C82C53EA01004CD80F /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		C5F0B0CA2C53EA04004CD80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F0B0CD2C53EA04004CD80F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5F0B0D72C53F7AA004CD80F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C5F0B0DA2C54D7B4004CD80F /* AnimatedGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedGradient.swift; sourceTree = "<group>"; };
+		C5F0B0DC2C54D7B4004CD80F /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		C5F0B0DD2C54D7B4004CD80F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C5F0B0E22C54D7E5004CD80F /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		C5F0B0E42C54D7EF004CD80F /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C5F0B0E62C54D83B004CD80F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C5F0B0EA2C54E190004CD80F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C5F0B0EC2C54E4A8004CD80F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C5F0B0EE2C54E4B1004CD80F /* CatalogeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogeView.swift; sourceTree = "<group>"; };
+		C5F0B0F02C54E4BE004CD80F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		C5F0B0F32C54F59C004CD80F /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		C5F0B0F52C54F5F7004CD80F /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C5F0B0F72C550359004CD80F /* CataloveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataloveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +79,14 @@
 		C5F0B0C52C53EA01004CD80F /* SushiGarden */ = {
 			isa = PBXGroup;
 			children = (
+				C5F0B0F52C54F5F7004CD80F /* Product.swift */,
 				C5F0B0C62C53EA01004CD80F /* SushiGardenApp.swift */,
-				C5F0B0C82C53EA01004CD80F /* ContentView.swift */,
-				C5F0B0CA2C53EA04004CD80F /* Assets.xcassets */,
-				C5F0B0CC2C53EA04004CD80F /* Preview Content */,
+				C5F0B0E92C54E101004CD80F /* ViewModel */,
+				C5F0B0E82C54E0EC004CD80F /* View */,
+				C5F0B0E12C54D7E5004CD80F /* Enum */,
+				C5F0B0D92C54D7B4004CD80F /* CommonUI */,
+				C5F0B0DB2C54D7B4004CD80F /* Styles */,
+				C5F0B0D62C53F79E004CD80F /* Extension */,
 			);
 			path = SushiGarden;
 			sourceTree = "<group>";
@@ -65,6 +97,64 @@
 				C5F0B0CD2C53EA04004CD80F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5F0B0D62C53F79E004CD80F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0CC2C53EA04004CD80F /* Preview Content */,
+				C5F0B0CA2C53EA04004CD80F /* Assets.xcassets */,
+				C5F0B0E62C54D83B004CD80F /* String.swift */,
+				C5F0B0D72C53F7AA004CD80F /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C5F0B0D92C54D7B4004CD80F /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0DA2C54D7B4004CD80F /* AnimatedGradient.swift */,
+				C5F0B0DD2C54D7B4004CD80F /* CustomTextField.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		C5F0B0DB2C54D7B4004CD80F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0DC2C54D7B4004CD80F /* TextFieldStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		C5F0B0E12C54D7E5004CD80F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0E22C54D7E5004CD80F /* Regex.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		C5F0B0E82C54E0EC004CD80F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0EE2C54E4B1004CD80F /* CatalogeView.swift */,
+				C5F0B0F32C54F59C004CD80F /* ProductCell.swift */,
+				C5F0B0C82C53EA01004CD80F /* AuthView.swift */,
+				C5F0B0EA2C54E190004CD80F /* TabBarView.swift */,
+				C5F0B0EC2C54E4A8004CD80F /* ProfileView.swift */,
+				C5F0B0F02C54E4BE004CD80F /* OrdersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5F0B0E92C54E101004CD80F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0B0F72C550359004CD80F /* CataloveViewModel.swift */,
+				C5F0B0E42C54D7EF004CD80F /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F0B0C92C53EA01004CD80F /* ContentView.swift in Sources */,
+				C5F0B0EF2C54E4B1004CD80F /* CatalogeView.swift in Sources */,
+				C5F0B0E02C54D7B4004CD80F /* CustomTextField.swift in Sources */,
+				C5F0B0F62C54F5F7004CD80F /* Product.swift in Sources */,
+				C5F0B0E52C54D7EF004CD80F /* AuthViewModel.swift in Sources */,
+				C5F0B0E32C54D7E5004CD80F /* Regex.swift in Sources */,
+				C5F0B0E72C54D83B004CD80F /* String.swift in Sources */,
+				C5F0B0F42C54F59C004CD80F /* ProductCell.swift in Sources */,
+				C5F0B0C92C53EA01004CD80F /* AuthView.swift in Sources */,
+				C5F0B0D82C53F7AA004CD80F /* Color.swift in Sources */,
 				C5F0B0C72C53EA01004CD80F /* SushiGardenApp.swift in Sources */,
+				C5F0B0F12C54E4BE004CD80F /* OrdersView.swift in Sources */,
+				C5F0B0DF2C54D7B4004CD80F /* TextFieldStyle.swift in Sources */,
+				C5F0B0DE2C54D7B4004CD80F /* AnimatedGradient.swift in Sources */,
+				C5F0B0F82C550359004CD80F /* CataloveViewModel.swift in Sources */,
+				C5F0B0ED2C54E4A8004CD80F /* ProfileView.swift in Sources */,
+				C5F0B0EB2C54E190004CD80F /* TabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = U8M8JK4Z5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = U8M8JK4Z5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
