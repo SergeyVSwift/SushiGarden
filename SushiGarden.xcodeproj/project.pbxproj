@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706CFD5B2D6100C300B16BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706CFD532D6100C300B16BAC /* Preview Assets.xcassets */; };
+		706CFD5C2D6100C300B16BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706CFD552D6100C300B16BAC /* Assets.xcassets */; };
+		706CFD5D2D6100C300B16BAC /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD572D6100C300B16BAC /* AuthView.swift */; };
+		706CFD5E2D6100C300B16BAC /* SushiGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD592D6100C300B16BAC /* SushiGardenApp.swift */; };
+		706CFD602D613BED00B16BAC /* CustomTextFielStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD5F2D613BED00B16BAC /* CustomTextFielStyle.swift */; };
+		706CFD722D6144B300B16BAC /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD712D6144B300B16BAC /* AnimatedGradient.swift */; };
+		706CFD762D614EB300B16BAC /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD752D614EB300B16BAC /* MainTabBar.swift */; };
+		706CFD782D6150A200B16BAC /* CatalogeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD772D6150A200B16BAC /* CatalogeView.swift */; };
+		706CFD7A2D6150D400B16BAC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD792D6150D400B16BAC /* CartView.swift */; };
+		706CFD7C2D6150E200B16BAC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD7B2D6150E200B16BAC /* ProfileView.swift */; };
+		706CFD7E2D62448700B16BAC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD7D2D62448700B16BAC /* Product.swift */; };
+		706CFD802D62465E00B16BAC /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD7F2D62465E00B16BAC /* ProductCell.swift */; };
+		706CFD832D6260D700B16BAC /* AvenirNext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 706CFD822D6260D700B16BAC /* AvenirNext.ttf */; };
+		706CFD872D6264FA00B16BAC /* CatalogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD862D6264FA00B16BAC /* CatalogeViewModel.swift */; };
+		706CFD892D626C5300B16BAC /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD882D626C5300B16BAC /* ProductDetailView.swift */; };
+		706CFD8D2D628F6900B16BAC /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CFD8C2D628F6900B16BAC /* ProductDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706CFD532D6100C300B16BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		706CFD552D6100C300B16BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706CFD572D6100C300B16BAC /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		706CFD582D6100C300B16BAC /* SushiGarden.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SushiGarden.entitlements; sourceTree = "<group>"; };
+		706CFD592D6100C300B16BAC /* SushiGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGardenApp.swift; sourceTree = "<group>"; };
+		706CFD5F2D613BED00B16BAC /* CustomTextFielStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFielStyle.swift; sourceTree = "<group>"; };
+		706CFD712D6144B300B16BAC /* AnimatedGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradient.swift; sourceTree = "<group>"; };
+		706CFD752D614EB300B16BAC /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		706CFD772D6150A200B16BAC /* CatalogeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogeView.swift; sourceTree = "<group>"; };
+		706CFD792D6150D400B16BAC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		706CFD7B2D6150E200B16BAC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		706CFD7D2D62448700B16BAC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		706CFD7F2D62465E00B16BAC /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		706CFD822D6260D700B16BAC /* AvenirNext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirNext.ttf; sourceTree = "<group>"; };
+		706CFD862D6264FA00B16BAC /* CatalogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogeViewModel.swift; sourceTree = "<group>"; };
+		706CFD882D626C5300B16BAC /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		706CFD8C2D628F6900B16BAC /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		70CFB07B2D60F6C000B4E41E /* SushiGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CFB0782D60F6C000B4E41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706CFD542D6100C300B16BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD532D6100C300B16BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		706CFD562D6100C300B16BAC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD542D6100C300B16BAC /* Preview Content */,
+				706CFD552D6100C300B16BAC /* Assets.xcassets */,
+				706CFD582D6100C300B16BAC /* SushiGarden.entitlements */,
+				706CFD822D6260D700B16BAC /* AvenirNext.ttf */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		706CFD5A2D6100C300B16BAC /* SushiGarden */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD752D614EB300B16BAC /* MainTabBar.swift */,
+				706CFD592D6100C300B16BAC /* SushiGardenApp.swift */,
+				706CFD852D6264BA00B16BAC /* Model */,
+				706CFD742D6145A100B16BAC /* View */,
+				706CFD842D62647E00B16BAC /* ViewModel */,
+				706CFD812D62466C00B16BAC /* Components */,
+				706CFD732D61457200B16BAC /* UiCommon */,
+				706CFD562D6100C300B16BAC /* Extension */,
+			);
+			path = SushiGarden;
+			sourceTree = "<group>";
+		};
+		706CFD732D61457200B16BAC /* UiCommon */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD712D6144B300B16BAC /* AnimatedGradient.swift */,
+				706CFD5F2D613BED00B16BAC /* CustomTextFielStyle.swift */,
+			);
+			path = UiCommon;
+			sourceTree = "<group>";
+		};
+		706CFD742D6145A100B16BAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD572D6100C300B16BAC /* AuthView.swift */,
+				706CFD772D6150A200B16BAC /* CatalogeView.swift */,
+				706CFD792D6150D400B16BAC /* CartView.swift */,
+				706CFD7B2D6150E200B16BAC /* ProfileView.swift */,
+				706CFD882D626C5300B16BAC /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		706CFD812D62466C00B16BAC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD7F2D62465E00B16BAC /* ProductCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		706CFD842D62647E00B16BAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD862D6264FA00B16BAC /* CatalogeViewModel.swift */,
+				706CFD8C2D628F6900B16BAC /* ProductDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		706CFD852D6264BA00B16BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				706CFD7D2D62448700B16BAC /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70CFB0722D60F6BF00B4E41E = {
+			isa = PBXGroup;
+			children = (
+				70CFB07C2D60F6C000B4E41E /* Products */,
+				706CFD5A2D6100C300B16BAC /* SushiGarden */,
+			);
+			sourceTree = "<group>";
+		};
+		70CFB07C2D60F6C000B4E41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CFB07B2D60F6C000B4E41E /* SushiGarden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CFB07A2D60F6C000B4E41E /* SushiGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFB08A2D60F6C100B4E41E /* Build configuration list for PBXNativeTarget "SushiGarden" */;
+			buildPhases = (
+				70CFB0772D60F6C000B4E41E /* Sources */,
+				70CFB0782D60F6C000B4E41E /* Frameworks */,
+				70CFB0792D60F6C000B4E41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiGarden;
+			packageProductDependencies = (
+			);
+			productName = SushiGarden;
+			productReference = 70CFB07B2D60F6C000B4E41E /* SushiGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CFB0732D60F6BF00B4E41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					70CFB07A2D60F6C000B4E41E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 70CFB0762D60F6BF00B4E41E /* Build configuration list for PBXProject "SushiGarden" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CFB0722D60F6BF00B4E41E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 70CFB07C2D60F6C000B4E41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CFB07A2D60F6C000B4E41E /* SushiGarden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CFB0792D60F6C000B4E41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706CFD5B2D6100C300B16BAC /* Preview Assets.xcassets in Resources */,
+				706CFD5C2D6100C300B16BAC /* Assets.xcassets in Resources */,
+				706CFD832D6260D700B16BAC /* AvenirNext.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CFB0772D60F6C000B4E41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706CFD7C2D6150E200B16BAC /* ProfileView.swift in Sources */,
+				706CFD5D2D6100C300B16BAC /* AuthView.swift in Sources */,
+				706CFD7E2D62448700B16BAC /* Product.swift in Sources */,
+				706CFD7A2D6150D400B16BAC /* CartView.swift in Sources */,
+				706CFD602D613BED00B16BAC /* CustomTextFielStyle.swift in Sources */,
+				706CFD892D626C5300B16BAC /* ProductDetailView.swift in Sources */,
+				706CFD872D6264FA00B16BAC /* CatalogeViewModel.swift in Sources */,
+				706CFD722D6144B300B16BAC /* AnimatedGradient.swift in Sources */,
+				706CFD8D2D628F6900B16BAC /* ProductDetailViewModel.swift in Sources */,
+				706CFD782D6150A200B16BAC /* CatalogeView.swift in Sources */,
+				706CFD802D62465E00B16BAC /* ProductCell.swift in Sources */,
+				706CFD762D614EB300B16BAC /* MainTabBar.swift in Sources */,
+				706CFD5E2D6100C300B16BAC /* SushiGardenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70CFB0882D60F6C100B4E41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70CFB0892D60F6C100B4E41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		70CFB08B2D60F6C100B4E41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SushiGarden/Extension/SushiGarden.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U8M8JK4Z5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VS7.SushiGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		70CFB08C2D60F6C100B4E41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SushiGarden/Extension/SushiGarden.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SushiGarden/Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U8M8JK4Z5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VS7.SushiGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CFB0762D60F6BF00B4E41E /* Build configuration list for PBXProject "SushiGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFB0882D60F6C100B4E41E /* Debug */,
+				70CFB0892D60F6C100B4E41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CFB08A2D60F6C100B4E41E /* Build configuration list for PBXNativeTarget "SushiGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFB08B2D60F6C100B4E41E /* Debug */,
+				70CFB08C2D60F6C100B4E41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CFB0732D60F6BF00B4E41E /* Project object */;
+}
